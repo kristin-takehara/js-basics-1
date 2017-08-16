@@ -24,10 +24,9 @@ var person = {
  */
 
 function greet (name) {
-  return "Hello, my name is " + name;
+  console.log("Hello, my name is " + name);
 }
-greet("Kristin");
-console.log(greet);
+
 
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
@@ -42,8 +41,7 @@ var dataTypes = ["string", 1, true, null, undefined, {}];
 
 var dog = {
   name: "Spot",
-  sound: function bark() {
-    return "bark!";
+  bark: function () {
+    console.log("wan wan");
   }
 };
-console.log(dog.sound);
